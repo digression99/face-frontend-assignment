@@ -22,6 +22,12 @@ module.exports = {
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'prettier/prettier': [
+      'warn',
+      {
+        endOfLine: 'auto'
+      }
+    ]
   },
   plugins: ['jest', 'react-hooks', 'simple-import-sort'],
   settings: {
